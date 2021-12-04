@@ -1,3 +1,3 @@
 # Todolist
 
-[DEMO](https://yoshuu.github.io/mask-app/)
+[DEMO](https://yoshuu.github.io/Todolist/)
