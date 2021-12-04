@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+</head>
+<body>
+
+
+<header>
+<h1>Todolist</h1>
+<form id="todo-form" class="todo-form">
+    <input type="text" id="todo-input" class="todo-input" placeholder="輸入你的事情...">
+    <button class="btn btn-submit" type="submit"><i class="fas fa-plus"></i></button>
+    <select id="todo-filter">
+    <option value="all">全部事情</option>
+    <option value="undone">沒有完成</option>
+    <option value="done">已經完成</option>
+    </select>
+</form>
+</header>
+
+
+<main>
+<div class="todo-container" id="todo-container"></div>
+</main>
+
+
+<div id="alert-msg" class="alert-msg">
+* 字段不能是空的
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
