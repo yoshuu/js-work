@@ -65,7 +65,7 @@ function editTodo(cacheData, element) {
   content.classList.add('hide')
 
 
-  // event listener
+  // event listener (建立監聽事件)
   editInput.addEventListener('keyup', e => {
     if(e.keyCode === 13) {
       editInput.classList.add('hide')
