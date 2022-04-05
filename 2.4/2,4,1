@@ -1,7 +1,0 @@
-1. let admin, name;
-
-2. name = "John";
-
-3. admin = name;
-
-4.alert( admin );
